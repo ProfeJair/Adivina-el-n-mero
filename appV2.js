@@ -63,7 +63,7 @@ if (valorMinimo>=valorMaximo){
     }
     
     function condicionesIniciales() {
-        asignarTextoElemento('h1','Juego del número secreto! v2.0');
+        //asignarTextoElemento('h1','Juego del número secreto! v2.0');
         asignarTextoElemento('p',`Indica un número del ${valorMinimo} al ${valorMaximo}`);
         numeroSecreto = generarNumeroSecreto();
         intentos = 1;
